@@ -1,4 +1,6 @@
 def extractVocab(datafile):
+#use lemma_train1.txt as input to this file
+# where column0 = "word" and column1 = "lematized word which we call tag"
 	word_vocab_index = 2
 	tag_vocab_index = 2
 	word2id = {'<pad>': 0, '<unk>': 1}

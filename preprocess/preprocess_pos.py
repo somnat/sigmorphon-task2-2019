@@ -2,7 +2,8 @@ import os
 
 def preProcessPos(filename):
     fout = open('out_fifth_col.txt', 'a')
-    fin = open(filename, 'r', errors='ignore')
+    fin = open(filename, 'r')
+    #fin = open(filename, 'r', errors='ignore')
     count = 0
     for line in fin:
         count +=1
